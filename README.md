@@ -1,2 +1,2 @@
 ###### PC
-- [테스트](Mobile/LG_Fashion)
+- [테스트](Responsive/)
