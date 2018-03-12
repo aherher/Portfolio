@@ -1,0 +1,116 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+
+<div class="sub_contents center_box">
+  <div class="sub_title_wrap">
+    <h2 class="sub_title">견적상담</h2>
+    <p class="st_txt">방문해주셔서 감사합니다.<br/>
+      어떠한 고민이든 최선을 다해 고객과 함께 고민하겠습니다.</p>
+    <ul class="title_infos">
+      <li> <span class="gleft">TEL</span> <span class="orgtxt">02-2038-3604</span> </li>
+      <li> <span class="gleft">FAX</span> <span class="orgtxt">02-6008-8764</span> </li>
+      <li> <span class="gleft">MAIL</span> <span class="orgtxt">bravo@o2vation.com</span> </li>
+    </ul>
+  </div>
+  <ul class="sub_tabs">
+    <li class="tab_on"><a href="sub01.html">사이트 제작문의</a></li>
+    <li><a href="sub02.html">견적상담내역</a></li>
+    <li><a href="sub03.html">수주/완료 내역</a></li>
+    <li><a href="sub04.html">랜섬웨어 백업</a></li>
+  </ul>
+  <div class="select_wrap"> <span>사이트 제작문의</span>
+    <select class="sub_sel" onchange="location.href=this.value">
+      <option value="sub01.html" selected>사이트 제작문의</option>
+      <option value="sub02.html">견적상담내역</option>
+      <option value="sub03.html">수주/완료 내역</option>
+      <option value="sub04.html">랜섬웨어 백업</option>
+    </select>
+  </div>
+  
+  <!-- 온라인문의 -->
+  <div class="sub_conbox"> <img src="../images/sub/o2_price0823.jpg" alt=""/>
+    <div class="sub_conbox">
+      <form class="main_online">
+        <p>필수입력사항</p>
+        <table class="mo_table" cellpadding="0" cellspacing="0">
+          <colgroup>
+          <col width="20%">
+          <col width="80%">
+          </colgroup>
+          <tbody>
+            <tr>
+              <th>고객명</th>
+              <td><input type="text" class="short_sel"></td>
+            </tr>
+            <tr>
+              <th>상호명</th>
+              <td><input type="text" class="short_sel"></td>
+            </tr>
+            <tr>
+              <th>연락처</th>
+              <td class="phonenumb"><input type="text" maxlength="3" class="short_sel">
+                <input type="text" maxlength="4" class="short_sel">
+                <input type="text" maxlength="4" class="short_sel"></td>
+            </tr>
+            <tr>
+              <th>의뢰내용</th>
+              <td><textarea></textarea></td>
+            </tr>
+          </tbody>
+        </table>
+        <p>선택입력사항</p>
+        <table class="mo_table" cellpadding="0" cellspacing="0">
+          <colgroup>
+          <col width="20%">
+          <col width="80%">
+          </colgroup>
+          <tbody>
+            <tr>
+              <th>이메일</th>
+              <td class="mail_wrap"><input type="text">
+                @
+                <input type="text"></td>
+            </tr>
+            <tr>
+              <th>첨부파일</th>
+              <td><input type="file" class="long_sel"></td>
+            </tr>
+            <tr>
+              <th>보유사이트</th>
+              <td><input type="text" class="long_sel"></td>
+            </tr>
+            <tr>
+              <th>참고사이트</th>
+              <td><input type="text" class="long_sel"></td>
+            </tr>
+            <tr>
+              <th>방문경로</th>
+              <td><span>
+                <input type="radio" id="visit01" name="visited">
+                <label for="visit01">인터넷 검색</label>
+                </span> <span>
+                <input type="radio" id="visit02" name="visited">
+                <label for="visit02">인터넷 광고</label>
+                </span> <span>
+                <input type="radio" id="visit03" name="visited">
+                <label for="visit03">지인소개</label>
+                </span> <span>
+                <input type="radio" id="visit04" name="visited">
+                <label for="visit04">광고지</label>
+                </span> <span>
+                <input type="radio" id="visit05" name="visited">
+                <label for="visit05">기타</label>
+                </span></td>
+            </tr>
+          </tbody>
+        </table>
+        <div class="detail_veiw"><a href="sub/sub01.html">SEND</a></div>
+      </form>
+    </div>
+    <? include "../inc/quick.html"; ?>
+  </div>
+  <!-- 온라인문의 끝 --> 
+  
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>

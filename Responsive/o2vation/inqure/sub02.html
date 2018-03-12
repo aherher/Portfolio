@@ -1,0 +1,38 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 시작 -->
+
+<div class="sub_contents center_box">
+  <div class="sub_title_wrap">
+    <h2 class="sub_title">견적상담</h2>
+    <p class="st_txt">방문해주셔서 감사합니다.<br/>
+      어떠한 고민이든 최선을 다해 고객과 함께 고민하겠습니다.</p>
+    <ul class="title_infos">
+      <li> <span class="gleft">TEL</span> <span class="orgtxt">02-2038-3604</span> </li>
+      <li> <span class="gleft">FAX</span> <span class="orgtxt">02-6008-8764</span> </li>
+      <li> <span class="gleft">MAIL</span> <span class="orgtxt">bravo@o2vation.com</span> </li>
+    </ul>
+  </div>
+  <ul class="sub_tabs">
+    <li><a href="sub01.html">사이트 제작문의</a></li>
+    <li class="tab_on"><a href="sub02.html">견적상담내역</a></li>
+    <li><a href="sub03.html">수주/완료 내역</a></li>
+    <li><a href="sub04.html">랜섬웨어 백업</a></li>
+  </ul>
+  <div class="select_wrap"> <span>견적상담내역</span>
+    <select class="sub_sel" onchange="location.href=this.value">
+      <option value="sub01.html">사이트 제작문의</option>
+      <option value="sub02.html" selected>견적상담내역</option>
+      <option value="sub03.html">수주/완료 내역</option>
+      <option value="sub04.html">랜섬웨어 백업</option>
+    </select>
+  </div>
+  
+  <!-- 온라인문의 -->
+  <div class="sub_conbox"> <img src="../images/tobe.png" alt=""/>
+    <? include "../inc/quick.html"; ?>
+  </div>
+  <!-- 온라인문의 끝 --> 
+  
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>

@@ -1,0 +1,48 @@
+<!-- 퀵메뉴 -->
+
+<div class="quick_wrap">
+  <div class="thisisQuick">
+    <p class="quick_title">빠른상담 문의</p>
+    <p class="quick_ment">부담 갖지 마시고 간편하게 문의 하세요.</p>
+    <form class="quick_form">
+      <textarea placeholder="상담 요청합니다."></textarea>
+      <table cellpadding="0" cellspacing="0" style="width:100%;">
+        <tbody>
+          <tr>
+            <td class="sender">보내시는 분</td>
+            <td><input type="text" class="namedbox"></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input type="text" class="q_numb" maxlength="3">
+              <input type="text" class="q_numb" maxlength="4">
+              <input type="text" class="q_numb" maxlength="4"></td>
+          </tr>
+        </tbody>
+      </table>
+      <button class="the_done">문의하기</button>
+    </form>
+  </div>
+  <div><a href="#!"><img src="../images/common/quick_banner.jpg" alt="문의하기"></a></div>
+  <div><a href="https://pf.kakao.com/_cxjEExd" target="_blank"><img src="../images/common/kakaobanner.gif" alt="카카오톡"></a></div>
+</div>
+<!-- 퀵메뉴 끝 --> 
+<script>
+  $(document).ready(function(e) { 
+  
+  $(window).scroll(function (){
+		var inScroll = $(this).scrollTop(); 
+		var theIt = inScroll += 50; 
+
+		if (inScroll > 0){                                          		
+		$(".sub_contents .quick_wrap").animate().stop();	
+		$(".sub_contents .quick_wrap").animate().animate({top:theIt}, 500);	
+			
+		}else if (inScroll < 0){     
+		$(".sub_contents .quick_wrap").animate().stop().animate({top:100}, 500);		
+		};
+		if (inScroll > cont_h2){
+			$(".sub_contents .quick_wrap").animate().stop();			
+			}		
+});
+});
+</script>
