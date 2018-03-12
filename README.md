@@ -2,6 +2,9 @@
 > The Ship
 
 ###### 반응형
-- [테스트](Responsive/o2vation/)
+- [오투베이션](Responsive/o2vation/)
+- [   ](Responsive/o2vation/)
 
+###### pc
+- [테스트](Responsive/o2vation/)
 
