@@ -1,0 +1,80 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 -->
+
+<div class="contents">
+  <div class="sub_top"> </div>
+  <ul class="intabs tabs5 center_box">
+    <li><a href="sub01.html">회사개요</a></li>
+    <li><a href="sub02.html">회사연혁</a></li>
+    <li><a href="sub03.html">조직구성</a></li>
+    <li><a class="tabOn" href="sub04.html">회사제안</a></li>
+    <li><a href="sub05.html">오시는 길</a></li>
+  </ul>
+  <div class="sub_contents center_box">
+    <h3>회사제안</h3>
+    <form name="sugg">
+      <table class="sugg_table">
+        <colgroup>
+        <col width="8%">
+        <col width="15%">
+        <col width="8%">
+        <col width="29%">
+        <col width="8%">
+        <col width="26%">
+        </colgroup>
+        <tbody>
+          <tr>
+            <th>분류</th>
+            <td colspan="7"><span>
+              <input type="radio" id="clsi01" name="clsi">
+              <label for="clsi01">프렌차이즈 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi02" name="clsi">
+              <label for="clsi02">투자 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi03" name="clsi">
+              <label for="clsi03">기술제휴 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi04" name="clsi">
+              <label for="clsi04">한국판매 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi05" name="clsi">
+              <label for="clsi05">해외수출 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi06" name="clsi">
+              <label for="clsi06">각종제휴 제안</label>
+              </span> <span>
+              <input type="radio" id="clsi07" name="clsi">
+              <label for="clsi07">기타</label>
+              </span></td>
+          </tr>
+          <tr>
+            <th>이름</th>
+            <td><input type="text" name="user_name" class="user_name"></td>
+            <th>연락처</th>
+            <td><input type="text" name="phone_box" class="phone_box" maxlength="3">
+              -
+              <input type="text" name="phone_box" class="phone_box" maxlength="4">
+              -
+              <input type="text" name="phone_box" class="phone_box" maxlength="4"></td>
+            <th>이메일</th>
+            <td><input type="text" name="mail_box" class="mail_box">
+              @
+              <input type="text" name="mail_box" class="mail_box"></td>
+          </tr>
+          <tr>
+            <th>제목</th>
+            <td colspan="7"><input type="text" name="txt_title" class="txt_title"></td>
+          </tr>
+          <tr>
+            <th>내용</th>
+            <td colspan="7"><textarea name="inContents"></textarea></td>
+          </tr>
+        </tbody>
+      </table>
+      <input type="submit" class="submit_btn" value="제안 보내기">
+    </form>
+  </div>
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>

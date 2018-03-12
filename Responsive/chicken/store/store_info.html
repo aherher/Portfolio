@@ -1,0 +1,57 @@
+<? include "../inc/header.html"; ?>
+<!-- 내용 -->
+
+<div class="contents">
+  <div class="sub_top"> </div>
+  <div class="sub_contents center_box">
+    <h3>매장 상세정보</h3>
+    <table class="store_detail">
+      <tbody>
+        <tr>
+          <th>가맹점명</th>
+          <td>신림점</td>
+        </tr>
+        <tr>
+          <th>매장주소</th>
+          <td>서울특별시 관악구 신림동</td>
+        </tr>
+        <tr>
+          <th>전화번호</th>
+          <td>02-000-0000</td>
+        </tr>
+        <tr>
+          <th>영업시간</th>
+          <td>PM15:00~AM00:00 [연중무휴]</td>
+        </tr>
+      </tbody>
+    </table>
+    <p class="intr_title" style="text-align:center;">오시는 길</p>
+    <!-- * Daum 지도 - 지도퍼가기 --> 
+    <!-- 1. 지도 노드 -->
+    <div id="daumRoughmapContainer1519200822544" class="root_daum_roughmap root_daum_roughmap_landing"></div>
+    
+    <!--
+	2. 설치 스크립트
+	* 지도 퍼가기 서비스를 2개 이상 넣을 경우, 설치 스크립트는 하나만 삽입합니다.
+--> 
+    <script charset="UTF-8" class="daum_roughmap_loader_script" src="http://dmaps.daum.net/map_js_init/roughmapLoader.js"></script> 
+    
+    <!-- 3. 실행 스크립트 --> 
+    <script charset="UTF-8">
+	new daum.roughmap.Lander({
+		"timestamp" : "1519200822544",
+		"key" : "mvd5",
+		"mapWidth" : "1100",
+		"mapHeight" : "400"
+	}).render();
+</script>
+    <div class="back_btn">뒤로가기</div>
+  </div>
+</div>
+<!-- 내용 끝 -->
+<? include "../inc/footer.html"; ?>
+<script>
+$(".back_btn").click(function (){
+		window.history.back();
+	});
+</script> 
