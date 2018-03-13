@@ -3,7 +3,6 @@
 
 ###### 반응형
 - [오투베이션 리뉴얼](Responsive/o2vation/)
-- [봉황의 후예](Responsive/chicken/)
 - [팍스만](Responsive/packsman/)
 - [에어마무리](Responsive/air/)
 - [SEEN](Responsive/SEEN/)
@@ -16,6 +15,7 @@
 - [cnc 인터네셔널](Responsive/cnc/)
 - [내츄럴바이오](Responsive/bio/)
 - [분양완판천국](Responsive/bunyang/)
+- [봉황의 후예](Responsive/chicken/)
 
 
 ###### pc
