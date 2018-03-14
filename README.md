@@ -7,23 +7,23 @@
 - [에어마무리](Responsive/air/)
 - [SEEN](Responsive/SEEN/)
 - [다파트](Responsive/dipart/)
-- [달인쇼핑몰](Responsive/dalin/)
 
 
 ###### pc + mobile
-- [홈케어](Responsive/homecare/)
-- [cnc 인터네셔널](Responsive/cnc/)
-- [내츄럴바이오](Responsive/bio/)
-- [분양완판천국](Responsive/bunyang/)
-- [봉황의 후예](Responsive/chicken/)
+- [홈케어](pc-mobile/homecare/)
+- [달인쇼핑몰](pc-mobile/dalin/)
+- [cnc 인터네셔널](pc-mobile/cnc/)
+- [내츄럴바이오](pc-mobile/bio/)
+- [분양완판천국](pc-mobile/bunyang/)
 
 
 ###### pc
-- [공모나라](Responsive/gongmo/)
-- [아미신학원](Responsive/armi/)
-- [동일이엔지](Responsive/eng/)
-- [두드림스포츠](Responsive/dodream/)
+- [공모나라](pc/gongmo/)
+- [아미신학원](pc/armi/)
+- [동일이엔지](pc/eng/)
+- [두드림스포츠](pc/dodream/)
+- [봉황의 후예](Responsive/chicken/)
 
 
 ###### mobile
-- [삼성카드앤드](Responsive/sanmsung/)
+- [삼성카드앤드](mobile/sanmsung/)
