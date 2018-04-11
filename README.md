@@ -2,7 +2,7 @@
 > The Ship
 
 ###### 반응형
-- ![](Responsive/o2vation/blank.png)[오투베이션 리뉴얼](Responsive/o2vation/)
+- ![오투베이션 리뉴얼](Responsive/o2vation/)
 - [팍스만](Responsive/packsman/)
 - [에어마무리](Responsive/air/)
 - [SEEN](Responsive/SEEN/)
