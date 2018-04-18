@@ -1,5 +1,5 @@
 # 디파트
-- URL  : diipart.com
+- URL  : http://www.diipart.com/
 - 타입 : 반응형
 - 참여인원 : 디자인1/퍼블리셔1/백엔드1
 - 참여도 : 퍼블리싱 100%
