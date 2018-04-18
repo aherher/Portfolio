@@ -1,12 +1,13 @@
 # The ship
 > The Ship
 
+
 ### 반응형
-- ![오투베이션 리뉴얼](Responsive/o2vation/)
-- [팍스만](Responsive/packsman/)
+- [디파트](Responsive/dipart/)
 - [에어마무리](Responsive/air/)
 - [SEEN](Responsive/SEEN/)
-- [디파트](Responsive/dipart/)
+- ![오투베이션 리뉴얼](Responsive/o2vation/)
+- [팍스만](Responsive/packsman/)
 
 
 ### pc + mobile
