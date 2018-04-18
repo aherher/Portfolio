@@ -6,12 +6,12 @@
 - [팍스만](Responsive/packsman/)
 - [에어마무리](Responsive/air/)
 - [SEEN](Responsive/SEEN/)
-- [다파트](Responsive/dipart/)
+- [디파트](Responsive/dipart/)
 
 
 ###### pc + mobile
 - [홈케어](pc-mobile/homecare/)
-- [달인쇼핑몰](pc-mobile/dalin/)
+- [달인식자재마트](pc-mobile/dalin/)
 - [cnc 인터네셔널](pc-mobile/cnc/)
 - [내츄럴바이오](pc-mobile/bio/)
 - [분양완판천국](pc-mobile/bunyang/)
