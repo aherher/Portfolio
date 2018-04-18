@@ -17,7 +17,7 @@
 - [분양완판천국](pc-mobile/bunyang/)
 
 
-### pc
+### 일반형
 - [공모나라](pc/gongmo/)
 - [아미신학원](pc/armi/)
 - [동일이엔지](pc/eng/)
