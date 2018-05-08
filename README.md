@@ -25,7 +25,7 @@
 - [두드림스포츠](pc/dodream/)
 - [우리감](pc/woorigam/)
 - [봉황의 후예](Responsive/chicken/)
-- [팝번](Responsive/popbun/)
+- [팝번](pc/popbun/)
 
 
 ### mobile
