@@ -15,7 +15,6 @@
 ### pc + mobile
 - [달인식자재마트](pc-mobile/dalin/)
 - [홈케어](pc-mobile/homecare/)
-- [미라클 다이아몬드](pc-mobile/dia/)
 - [cnc 인터네셔널](pc-mobile/cnc/)
 - [내츄럴바이오](pc-mobile/bio/)
 - [분양완판천국](pc-mobile/bunyang/)
@@ -30,6 +29,7 @@
 - [우리감](pc/woorigam/)
 - [봉황의 후예](Responsive/chicken/)
 - [팝번](pc/popbun/)
+- [미라클 다이아몬드](pc/diamond/)
 
 
 ### mobile
