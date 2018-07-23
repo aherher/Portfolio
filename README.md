@@ -33,7 +33,7 @@
 - [팝번](pc/popbun/)
 - [미라클 다이아몬드](pc/diamond/)
 - [홍윤의치과](pc/tooth/)
-- [나이브아트센터](pc/tooth/)
+- [나이브아트센터](pc/naive/)
 
 ### mobile
 - [삼성카드앤드](mobile/sanmsung/)
