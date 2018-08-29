@@ -41,3 +41,4 @@
 - [삼성카드앤드](mobile/sanmsung/)
 - [한일텍 모바일](mobile/hanil/)
 - [펜타포트](mobile/penta)
+- [초앤유](mobile/chnu)
