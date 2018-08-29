@@ -35,6 +35,7 @@
 - [미라클 다이아몬드](pc/diamond/)
 - [홍윤의치과](pc/tooth/)
 - [나이브아트센터](pc/naive/)
+- [지비테크](pc/GB/)
 
 ### mobile
 - [삼성카드앤드](mobile/sanmsung/)
