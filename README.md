@@ -49,3 +49,4 @@
 - [한일텍 모바일](mobile/hanil/)
 - [펜타포트](mobile/penta)
 - [초앤유](mobile/chnu)
+- [알레르망 고객사은 이벤트](pc-mobile/aler-custom/)
