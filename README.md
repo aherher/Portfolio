@@ -15,12 +15,14 @@
 
 ### pc + mobile
 - [달인식자재마트](pc-mobile/dalin/)
+- [코리아사파](pc-mobile/sapa/)
+- [알레르망 매력투표 이벤트](pc-mobile/aler-vote/)
 - [홈케어](pc-mobile/homecare/)
 - [cnc 인터네셔널](pc-mobile/cnc/)
 - [내츄럴바이오](pc-mobile/bio/)
 - [법무법인 드림](pc-mobile/dream/)
 - [분양완판천국](pc-mobile/bunyang/)
-- [코리아사파](pc-mobile/sapa/)
+
 
 
 ### 일반형
